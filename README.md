@@ -1,5 +1,7 @@
 # Api Rest w Node.js & Express · CRUD
 
+A basic exercise from [this video](https://www.youtube.com/watch?v=BImKbdy-ubM) ✨🚀
+
 ## Basic config:
 1. `npm init`
 2. `npm i express`
