@@ -1,6 +1,6 @@
 # Api Rest w Node.js & Express · CRUD
 
-Basic config:
+## Basic config:
 1. `npm init`
 2. `npm i express`
 3. Add to package.json { type: "module" }
@@ -23,11 +23,11 @@ app.listen(3000, () => {
 });
 ```
 
-DB creation:
+## DB creation:
 1. Create `db.json` file.
 2. Import fs.
 
-Read all books:
+## Read all books:
 1. Read the file.
 2. Get from url.
 
@@ -47,7 +47,7 @@ app.get("/books", (req, res) => {
 });
 ```
 
-Find book by id:
+## Find book by id:
 1. Read the file.
 2. Get id from params.
 
@@ -60,7 +60,7 @@ app.get("/books/:id", (req, res) => {
 });
 ```
 
-Add a new book:
+## Add a new book:
 1. Write the data.
 2. Add a new book to the data.
 
@@ -86,7 +86,7 @@ app.post("/books", (req, res) => {
 });
 ```
 
-Update a book info:
+## Update a book info:
 
 ```
 app.put("/books/:id", (req, res) => {
@@ -103,7 +103,7 @@ app.put("/books/:id", (req, res) => {
 });
 ```
 
-Delete a book:
+## Delete a book:
 
 ```
 app.delete("/books/:id", (req, res) => {
