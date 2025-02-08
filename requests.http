@@ -1,0 +1,25 @@
+GET http://localhost:3000/books HTTP/1.1
+
+###
+GET http://localhost:3000/books/1 HTTP/1.1
+
+###
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Book 4",
+  "author": "Book author",
+  "year": "1999"
+}
+
+###
+PUT http://localhost:3000/books/2 HTTP/1.1
+Content-Type: application/json
+
+{
+  "year": "2000"
+}
+
+###
+DELETE http://localhost:3000/books/3 HTTP/1.1

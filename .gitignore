@@ -1,0 +1,22 @@
+node_modules/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Editor configs y archivos temporales
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Dependencias específicas de Next.js o Vite (si las usas)
+.next/
+.vercel/
+out/
+dist/
